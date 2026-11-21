@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff5f7">
+  <title>Feliz cumpleaños, mi fridita 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio">para ti <span>♡</span></a>
+    <a class="music-note" href="#carta">hecho con amor</a>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">HOY ES UN DÍA MUY ESPECIAL PARA TODOTES</p>
+        <h1>Feliz cumpleaños,<br><em>mi persona enojona cabroncilla</em></h1>
+        <p class="intro">Hoy el mundo celebra que llegaste a él, y yo celebro la suerte de coincidir contigo.</p>
+        <a class="primary-button" href="#carta">Tengo algo para ti <span>↓</span></a>
+      </div>
+      <div class="hero-photo photo-frame">
+        <img src="fotos/portada.jpg" alt="Nuestra foto favorita" onerror="this.style.display='none'; this.parentElement.classList.add('empty-photo')">
+        <div class="photo-placeholder"><span>♡</span><b>Tu foto favorita aquí</b><small>fotos/portada.jpg</small></div>
+        <span class="photo-sticker">mi lugar feliz</span>
+      </div>
+      <div class="scroll-hint">DESLIZA PARA DESCUBRIR <span>⌄</span></div>
+    </section>
+
+    <section class="letter section" id="carta">
+      <div class="section-label">UNAS PALABRAS PARA TI</div>
+      <div class="letter-card">
+        <span class="big-heart">♥</span>
+        <h2>Para la cumpleañera<br>más bonita.</h2>
+        <p>Amor,</p>
+        <p>Hoy quiero recordarte lo increíble que eres y lo feliz que me hace tenerte en mi vida. Gracias por cada risa, cada conversación, cada abrazo y por todos esos pequeños momentos que contigo se vuelven recuerdos enormes.</p>
+        <p>Deseo que este nuevo año esté lleno de cosas bonitas, sueños cumplidos y motivos para sonreír. Ojalá pueda acompañarte en muchísimos cumpleaños más y seguir creando recuerdos a tu lado enojoncilla.</p>
+        <p class="letter-end">Te quiero muchísimo. Feliz cumpleaños. ♡</p>
+        <span class="signature">Con todo mi cariño</span>
+      </div>
+    </section>
+
+    <section class="gallery section" id="recuerdos">
+      <div class="section-label">PEQUEÑOS INSTANTES, GRANDES RECUERDOS</div>
+      <h2>las mejores fotos <em>favoritos</em></h2>
+      <p class="section-description">Una pequeña colección de momentos que siempre quiero guardar.</p>
+      <div class="photo-grid">
+        <figure class="memory-card tall">
+          <img src="fotos/recuerdo-1.jpg" alt="Un recuerdo juntos" onerror="this.style.display='none'; this.parentElement.classList.add('empty-memory')">
+          <figcaption>Un día para recordar ♡</figcaption>
+          <div class="memory-placeholder">Agrega recuerdo 1<br><small>recuerdo-1.jpg</small></div>
+        </figure>
+        <figure class="memory-card">
+          <img src="fotos/recuerdo-2.jpg" alt="Un momento especial" onerror="this.style.display='none'; this.parentElement.classList.add('empty-memory')">
+          <figcaption>De mis días favoritos</figcaption>
+          <div class="memory-placeholder">Agrega recuerdo 2<br><small>recuerdo-2.jpg</small></div>
+        </figure>
+        <figure class="memory-card">
+          <img src="fotos/recuerdo-3.jpg" alt="Una foto especial" onerror="this.style.display='none'; this.parentElement.classList.add('empty-memory')">
+          <figcaption>Y los que nos faltan...</figcaption>
+          <div class="memory-placeholder">Agrega recuerdo 3<br><small>recuerdo-3.jpg</small></div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="reasons section">
+      <div class="section-label">POR SI ALGUNA VEZ SE TE OLVIDA</div>
+      <h2>Hay mil razones para <em>quererte.</em></h2>
+      <div class="reason-list">
+        <div><span>01</span> Tu forma tan única de hacerme sonreír.</div>
+        <div><span>02</span> La manera en que haces especiales los días normales.</div>
+        <div><span>03</span> Cada detalle que te hace ser tú.</div>
+        <div><span>04</span> Y simplemente, porque eres tú.</div>
+      </div>
+    </section>
+
+    <section class="finale section">
+      <div class="finale-card">
+        <div class="sparkle">✦　♡　✦</div>
+        <p>Y esto es solo una pequeña parte de todo lo que quiero decirte...</p>
+        <h2>Que la vida te regale<br><em>todo lo bonito</em> que mereces.</h2>
+        <p class="final-love">Feliz cumpleaños, mi amor. ♡</p>
+        <button class="surprise-button" id="surpriseBtn">Presiona aquí para una sorpresa ✨</button>
+        <p class="surprise-message" id="surpriseMessage" aria-live="polite">Mi deseo es seguir sumando momentos contigo. Te quiero muchísimo. 💗</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>Hecho especialmente para ti, con mucho amor <span>♡</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
+  
